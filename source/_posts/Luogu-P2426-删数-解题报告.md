@@ -1,3 +1,4 @@
+---
 title: Luogu P2426 删数 解题报告
 categories: 解题报告
 tags: [DP,区间DP]

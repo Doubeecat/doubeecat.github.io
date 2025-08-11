@@ -1,3 +1,4 @@
+---
 title: ZROI 2022CSP7连测 Round1 解题报告
 categories: 解题报告
 tags: [线段树,数学]

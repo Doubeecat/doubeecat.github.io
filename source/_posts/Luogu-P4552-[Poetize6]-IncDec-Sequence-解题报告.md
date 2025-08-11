@@ -1,4 +1,4 @@
-title: Luogu P4552 [Poetize6] IncDec Sequence 解题报告
+---\r\title: Luogu P4552 [Poetize6] IncDec Sequence 解题报告
 categories: 解题报告
 tags: [差分]
 date: 2020-05-14 13:36:00

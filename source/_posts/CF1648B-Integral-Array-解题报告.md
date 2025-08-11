@@ -1,3 +1,4 @@
+---
 title: CF1648B Integral Array 解题报告
 categories: 解题报告
 tags: []

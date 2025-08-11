@@ -1,3 +1,4 @@
+---
 title: 线段树分块 Pro Max
 categories: 学习笔记
 tags: [线段树,扫描线,分块]

@@ -1,3 +1,4 @@
+---
 title: NOI Online 提高组 2022 解题报告
 categories: 解题报告
 tags: [思维,单调栈,树状数组,二维数点]

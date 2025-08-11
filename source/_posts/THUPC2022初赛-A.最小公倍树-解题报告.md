@@ -1,3 +1,4 @@
+---
 title: THUPC2022初赛 A.最小公倍树 解题报告
 categories: 解题报告
 tags: [数学,Kruskal]

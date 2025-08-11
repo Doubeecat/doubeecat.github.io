@@ -1,3 +1,4 @@
+---
 title: CF gym 102916 F Exactly One Point 解题报告
 categories: 解题报告
 tags: [DP,数据结构,差分约束]

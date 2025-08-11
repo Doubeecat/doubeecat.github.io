@@ -1,3 +1,4 @@
+---
 title: CF1638E Colorful Operations 解题报告
 categories: 解题报告
 tags: [线段树]

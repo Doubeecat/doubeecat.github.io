@@ -1,3 +1,4 @@
+---
 title: CF GYM101190E Expect to Wait 解题报告
 categories: 解题报告
 tags: [扫描线]

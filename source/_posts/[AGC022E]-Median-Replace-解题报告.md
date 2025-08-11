@@ -1,4 +1,5 @@
-title: [AGC022E] Median Replace 解题报告
+---
+title: AGC022E Median Replace 解题报告
 categories: 解题报告
 tags: [DP,计数问题]
 date: 2021-08-11 02:28:00

@@ -1,3 +1,4 @@
+---
 title: CF1706E Qpwoeirut and Vertices 解题报告
 categories: 解题报告
 tags: [Kruskal 重构树,RMQ,LCA]

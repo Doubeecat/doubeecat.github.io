@@ -1,3 +1,4 @@
+---
 title: Luogu P2169 正则表达式 解题报告
 categories: 解题报告
 tags: [图论,Tarjan,缩点]

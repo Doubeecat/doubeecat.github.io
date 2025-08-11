@@ -1,3 +1,4 @@
+---
 title: CF1039D You Are Given a Tree 解题报告
 categories: 解题报告
 tags: [根号分治]

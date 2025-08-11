@@ -1,3 +1,4 @@
+---
 title: Codeforces55D-Beautiful Numbers  解题报告
 categories: 解题报告
 tags: [数论,DP,数位DP]

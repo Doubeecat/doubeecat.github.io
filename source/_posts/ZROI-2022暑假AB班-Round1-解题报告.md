@@ -1,3 +1,4 @@
+---
 title: ZROI 2022暑假AB班 Round1 解题报告
 categories: 解题报告
 tags: [DP,凸包,闵可夫斯基和,决策单调性]

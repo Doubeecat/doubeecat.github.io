@@ -1,3 +1,4 @@
+---
 title: gcd(未完成版)
 categories: 学习笔记
 tags: [数论]

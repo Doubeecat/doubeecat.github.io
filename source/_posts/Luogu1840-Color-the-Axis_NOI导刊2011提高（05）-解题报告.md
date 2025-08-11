@@ -1,3 +1,4 @@
+---
 title: Luogu1840 Color the Axis_NOI导刊2011提高（05） 解题报告
 categories: 解题报告
 tags: [线段树]

@@ -1,3 +1,4 @@
+---
 title: CF GYM 102055B Balance of the Force 解题报告
 categories: 解题报告
 tags: [二分图]

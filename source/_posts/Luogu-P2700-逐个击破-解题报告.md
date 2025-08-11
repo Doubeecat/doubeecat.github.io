@@ -1,3 +1,4 @@
+---
 title: Luogu P2700 逐个击破 解题报告
 categories: 解题报告
 tags: [图论,并查集,思维,树上问题,Kruskal]

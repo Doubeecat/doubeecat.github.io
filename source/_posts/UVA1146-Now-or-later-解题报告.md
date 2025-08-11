@@ -1,3 +1,4 @@
+---
 title: UVA1146 Now or later 解题报告
 categories: 解题报告
 tags: [图论,二分,2-SAT]

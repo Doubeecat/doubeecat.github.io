@@ -1,3 +1,4 @@
+---
 title: Luogu P2132 小Z的队伍排列 解题报告
 categories: 解题报告
 tags: [DP,线性DP]

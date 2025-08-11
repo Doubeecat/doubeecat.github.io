@@ -1,3 +1,4 @@
+---
 title: CF gym 102012 J Rikka with An Unnamed Temple 解题报告
 categories: 解题报告
 tags: [拓扑排序,DP,线段树,数据结构,毒瘤]

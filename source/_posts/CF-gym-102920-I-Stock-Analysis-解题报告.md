@@ -1,3 +1,4 @@
+---
 title: CF gym 102920 I Stock Analysis 解题报告
 categories: 解题报告
 tags: [数据结构,树状数组]

@@ -1,3 +1,4 @@
+---
 title: Kruskal 重构树学习笔记
 categories: 学习笔记
 tags: [Kruskal 重构树]

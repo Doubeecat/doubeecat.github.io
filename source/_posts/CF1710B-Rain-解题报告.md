@@ -1,3 +1,4 @@
+---
 title: CF1710B Rain 解题报告
 categories: 解题报告
 tags: [思维]

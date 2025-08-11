@@ -1,3 +1,4 @@
+---
 title: Luogu P1156 垃圾陷阱 解题报告
 categories: 解题报告
 tags: [DP,背包,线性DP]

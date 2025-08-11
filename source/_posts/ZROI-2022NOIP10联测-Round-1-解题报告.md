@@ -1,3 +1,4 @@
+---
 title: ZROI 2022NOIP10联测 Round 1 解题报告
 categories: 解题报告
 tags: [DP,思维,线段树,数学]

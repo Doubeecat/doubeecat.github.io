@@ -1,3 +1,4 @@
+---
 title: CF363D Renting Bikes 解题报告
 categories: 解题报告
 tags: [贪心,二分]

@@ -1,3 +1,4 @@
+---
 title: CF1648A Weird Sum 解题报告
 categories: 解题报告
 tags: []

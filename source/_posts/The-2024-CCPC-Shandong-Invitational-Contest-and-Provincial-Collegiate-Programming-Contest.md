@@ -1,3 +1,4 @@
+---
 title: The 2024 CCPC Shandong Invitational Contest and Provincial Collegiate Programming Contest
 categories: 解题报告
 tags: []

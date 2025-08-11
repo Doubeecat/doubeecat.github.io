@@ -1,3 +1,4 @@
+---
 title: ZROI 2022暑假AB班 Round2 解题报告
 categories: 解题报告
 tags: [线段树,ETT,博弈论,nim游戏,线性基]

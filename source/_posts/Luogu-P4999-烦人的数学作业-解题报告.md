@@ -1,3 +1,4 @@
+---
 title: Luogu P4999 烦人的数学作业 解题报告
 categories: 解题报告
 tags: [DP,数位DP]

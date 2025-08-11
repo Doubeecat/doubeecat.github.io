@@ -1,3 +1,4 @@
+---
 title: Luogu P1032 字串变换 解题报告
 categories: 解题报告
 tags: [BFS,搜索,字符串]

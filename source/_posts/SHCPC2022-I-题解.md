@@ -1,3 +1,4 @@
+---
 title: SHCPC2022 I 题解
 categories: 解题报告
 tags: []

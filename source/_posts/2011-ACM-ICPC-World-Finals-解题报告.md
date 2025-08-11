@@ -1,3 +1,4 @@
+---
 title: 2011 ACM-ICPC World Finals 解题报告
 categories: 解题报告
 tags: []

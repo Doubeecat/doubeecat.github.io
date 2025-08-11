@@ -1,4 +1,4 @@
-title: Luogu P1772 [ZJOI2006]物流运输 解题报告
+---\r\title: Luogu P1772 [ZJOI2006]物流运输 解题报告
 categories: 解题报告
 tags: [图论,最短路,DP,区间DP]
 date: 2020-09-05 03:39:00

@@ -1,3 +1,4 @@
+---
 title: CodeForcesRound#1206题解
 categories: Codeforces赛后题解
 tags: [图论,暴力,codeforces,思维]

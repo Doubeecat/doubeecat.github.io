@@ -1,3 +1,4 @@
+---
 title: Codeforces GYM 103069B Rectangle Flip 2 解题报告
 categories: 解题报告
 tags: [计数问题]

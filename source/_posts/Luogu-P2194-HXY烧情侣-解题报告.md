@@ -1,3 +1,4 @@
+---
 title: Luogu P2194 HXY烧情侣 解题报告
 categories: 解题报告
 tags: [图论,Tarjan]

@@ -1,3 +1,4 @@
+---
 title: SEERC 2021 部分题解
 categories: 解题报告
 tags: []

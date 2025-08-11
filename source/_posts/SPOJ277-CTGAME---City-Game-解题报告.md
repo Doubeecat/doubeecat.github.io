@@ -1,3 +1,4 @@
+---
 title: SPOJ277 CTGAME - City Game 解题报告
 categories: 解题报告
 tags: [思维,单调栈]

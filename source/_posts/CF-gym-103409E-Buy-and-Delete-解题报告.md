@@ -1,3 +1,4 @@
+---
 title: CF gym 103409E Buy and Delete 解题报告
 categories: 解题报告
 tags: [图论,Dijkstra,最小环]

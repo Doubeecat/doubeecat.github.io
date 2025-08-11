@@ -1,3 +1,4 @@
+---
 title: UVA1560 Extended Lights Out 解题报告
 categories: 解题报告
 tags: [暴力,枚举,位运算]

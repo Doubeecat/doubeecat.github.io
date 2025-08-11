@@ -1,3 +1,4 @@
+---
 title: Luogu 1417 烹调方案 解题报告
 categories: 解题报告
 tags: [DP,背包]

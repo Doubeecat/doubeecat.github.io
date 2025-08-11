@@ -1,4 +1,4 @@
-title: Luogu P2458 [SDOI2006]保安站岗 解题报告
+---\r\title: Luogu P2458 [SDOI2006]保安站岗 解题报告
 categories: 解题报告
 tags: [DP,树上问题,树形DP]
 date: 2020-07-05 16:23:00

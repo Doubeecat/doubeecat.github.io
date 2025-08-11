@@ -1,3 +1,4 @@
+---
 title: CF1416C XOR Inverse 解题报告
 categories: 解题报告
 tags: []

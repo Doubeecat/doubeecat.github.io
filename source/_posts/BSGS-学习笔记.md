@@ -1,3 +1,4 @@
+---
 title: BSGS 学习笔记
 categories: 学习笔记
 tags: [数论,BSGS]

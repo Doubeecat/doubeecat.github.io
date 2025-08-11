@@ -1,3 +1,4 @@
+---
 title: ZROI 2022NOIP10联测 Round 2 解题报告
 categories: 解题报告
 tags: [树上问题,拉格朗日插值]

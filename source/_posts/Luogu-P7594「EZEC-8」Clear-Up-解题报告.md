@@ -1,3 +1,4 @@
+---
 title: Luogu P7594「EZEC-8」Clear Up 解题报告
 categories: 解题报告
 tags: [单调栈]
