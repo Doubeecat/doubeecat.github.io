@@ -7,5 +7,3 @@ public/
 .deploy*/
 fix_front_matter.ps1
 fix_ntitle.ps1
-package-lock.json
-yarn.lock
