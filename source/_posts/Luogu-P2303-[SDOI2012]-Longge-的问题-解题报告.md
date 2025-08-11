@@ -1,4 +1,5 @@
----\r\title: Luogu P2303 [SDOI2012] Longge 的问题 解题报告
+---
+title: Luogu P2303 [SDOI2012] Longge 的问题 解题报告
 categories: 解题报告
 tags: [数学,欧拉函数]
 date: 2020-08-05 04:03:24

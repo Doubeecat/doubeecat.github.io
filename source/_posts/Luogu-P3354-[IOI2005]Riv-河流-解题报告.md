@@ -1,4 +1,5 @@
----\r\title: Luogu P3354 [IOI2005]Riv 河流 解题报告
+---
+title: Luogu P3354 [IOI2005]Riv 河流 解题报告
 categories: 解题报告
 tags: [DP,树上问题,树形DP]
 date: 2021-02-26 11:52:23

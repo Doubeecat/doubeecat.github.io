@@ -1,4 +1,5 @@
----\r\title: Luogu P6397 [COI2008] GLASNICI 解题报告
+---
+title: Luogu P6397 [COI2008] GLASNICI 解题报告
 categories: 解题报告
 tags: [思维,二分]
 date: 2020-10-20 13:46:22

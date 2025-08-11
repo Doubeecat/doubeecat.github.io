@@ -1,4 +1,5 @@
----\r\title: Luogu P3842 [TJOI2007]线段 解题报告
+---
+title: Luogu P3842 [TJOI2007]线段 解题报告
 categories: 解题报告
 tags: [DP,线性DP]
 date: 2020-06-27 13:50:34

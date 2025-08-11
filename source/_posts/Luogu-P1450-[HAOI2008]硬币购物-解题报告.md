@@ -1,4 +1,5 @@
----\r\title: Luogu P1450 [HAOI2008]硬币购物 解题报告
+---
+title: Luogu P1450 [HAOI2008]硬币购物 解题报告
 categories: 解题报告
 tags: [DP,背包,数学,容斥原理]
 date: 2020-09-04 12:38:00

@@ -6,12 +6,12 @@ variant: default
 
 # Logo
 logo:
-  text: Hexo for OIers
+  text: Doubeecat's blog
 
 # 页面元数据配置
 head:
   # 网站图标的 URL 或路径
-  favicon: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+  favicon: http://q1.qlogo.cn/g?b=qq&nk=1359446223&s=100
 
   # Web App 配置
   # https://developer.mozilla.org/en-US/docs/Web/Manifest
@@ -210,18 +210,18 @@ widgets:
     # 位置
     location: localhost
     # 头像
-    avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+    avatar: http://q.qlogo.cn/headimg_dl?dst_uin=1359446223&spec=640&img_type=jpg
     # 是否使用圆形头像
-    avatar_rounded: false
+    avatar_rounded: True
     # Gravatar 邮箱地址
     gravatar:
     # 「关注我」按钮的链接
-    follow_link: https://github.com/renbaoshuo
+    follow_link: https://github.com/doubeecat
     # 社交按钮
     social_links:
       Github:
         icon: fab fa-github
-        url: https://github.com/renbaoshuo/hexo-for-oiers
+        url: https://github.com/doubeecat
       RSS:
         icon: fas fa-rss
         url: /atom.xml
@@ -240,9 +240,7 @@ widgets:
     # 链接的名称和指向
     links:
       Hexo: https://hexo.io
-      Bulma: https://bulma.io
       Baoshuo: https://baoshuo.ren
-      Hexo for OIers: https://github.com/renbaoshuo/hexo-for-oiers
   # 分类
   - position: left
     type: categories

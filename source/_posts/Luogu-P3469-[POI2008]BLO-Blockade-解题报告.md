@@ -1,4 +1,5 @@
----\r\title: Luogu P3469 [POI2008]BLO-Blockade 解题报告
+---
+title: Luogu P3469 [POI2008]BLO-Blockade 解题报告
 categories: 解题报告
 tags: [图论,Tarjan,割点]
 date: 2019-09-07 16:17:00
