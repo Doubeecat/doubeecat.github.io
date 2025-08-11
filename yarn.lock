@@ -29,7 +29,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.28.0.tgz#9fc6fd58c2a6a15243cd13983224968392070790"
   integrity sha512-60X7qkglvrap8mn1lh2ebxXdZYtUcpd7gsmy9kLaBJ4i/WdY8PqTSdxyA8qraikqKQK5C1KRBKXqznrVapyNaw==
 
-"@babel/core@^7.7.7":
+"@babel/core@^7.23.9", "@babel/core@^7.7.7":
   version "7.28.0"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.28.0.tgz#55dad808d5bf3445a108eefc88ea3fdf034749a4"
   integrity sha512-UlLAnTPrFdNGoFtbSXwcGFQBtQZJCNjaN6hQNP3UPvuNXT1i82N26KL3dZeIpNalWywr9IuQuncaAfUaS1g6sQ==
@@ -689,7 +689,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.27.1"
     "@babel/helper-plugin-utils" "^7.27.1"
 
-"@babel/preset-env@^7.7.7":
+"@babel/preset-env@^7.23.9", "@babel/preset-env@^7.7.7":
   version "7.28.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.28.0.tgz#d23a6bc17b43227d11db77081a0779c706b5569c"
   integrity sha512-VmaxeGOwuDqzLl5JUkIRM1X2Qu2uKGxHEQWh+cvvbl7JuJRgKGJSfsEF/bUaxFhJl/XAyxBe7q7qSuTbKFuCyg==
@@ -774,7 +774,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/register@^7.7.7":
+"@babel/register@^7.23.7", "@babel/register@^7.7.7":
   version "7.27.1"
   resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.27.1.tgz#ea4d701649d788d7cb8a064b7540fd21083147f1"
   integrity sha512-K13lQpoV54LATKkzBpBAEu1GGSIRzxR9f4IN4V8DCDgiUMo2UDGagEZr3lPeVNJPLkWUi5JE4hCHKneVTwQlYQ==
@@ -968,7 +968,7 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-babel-plugin-inferno@^6.1.0:
+babel-plugin-inferno@^6.1.0, babel-plugin-inferno@^6.7.1:
   version "6.8.4"
   resolved "https://registry.yarnpkg.com/babel-plugin-inferno/-/babel-plugin-inferno-6.8.4.tgz#c2e53c7f4224487a491415caf3ac3eace4fd0815"
   integrity sha512-e5VaQ8ryXbobC3d/vXHPDeoQnBw8u4DwmexwHtWn4KbMm7m3M32uFD434O0giN7h6J7dPo+OurYshDsbb5AWug==
@@ -1242,6 +1242,11 @@ cssstyle@^2.3.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
+
+csstype@^3.1.2:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
+  integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
 cuid@^2.1.4, cuid@^2.1.8:
   version "2.1.8"
@@ -1838,6 +1843,19 @@ hexo-renderer-inferno@^0.1.3:
     inferno-create-element "^7.3.3"
     inferno-server "^7.3.3"
 
+hexo-renderer-inferno@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-inferno/-/hexo-renderer-inferno-1.0.2.tgz#9494010decba4a1c05f676c38d6fce982e42855c"
+  integrity sha512-ozkKfWKKf/mTbvE/7Bf+YCaFZ0Vi9Sc8a4J6fbYV08rbM+0e9mQUfjhc0Q3xWxipHSTiWa2vGlwgAukj35lV/Q==
+  dependencies:
+    "@babel/core" "^7.23.9"
+    "@babel/preset-env" "^7.23.9"
+    "@babel/register" "^7.23.7"
+    babel-plugin-inferno "^6.7.1"
+    inferno "^8.2.3"
+    inferno-create-element "^8.2.3"
+    inferno-server "^8.2.3"
+
 hexo-renderer-marked@^6.1.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.3.0.tgz#be8680ecad9633964a0c26a5f99859247d996aca"
@@ -2058,12 +2076,26 @@ inferno-create-element@^7.3.3:
   dependencies:
     inferno "7.4.11"
 
+inferno-create-element@^8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-8.2.3.tgz#9c53039f8cfd806d7f2aaf1d2899d5ac7304d87e"
+  integrity sha512-YEwX4OiFlgeTutvE16uCGxkaSVwZ1DklpAPX8okjVsGaLIWQrM8QIQFxn3mTLWSu70Uea+afQfKL5wE4hxn39Q==
+  dependencies:
+    inferno "8.2.3"
+
 inferno-server@^7.3.3:
   version "7.4.11"
   resolved "https://registry.yarnpkg.com/inferno-server/-/inferno-server-7.4.11.tgz#05ec0f7ceea4a30da412baaccbbfeca258db27cf"
   integrity sha512-SUnkCqZNWOIrjRVoVk/E1/70O1f1ImkCX9H2gDPbS0uc3GDxuzIeCgn0rpcc0XV9KzZJ2LTGxuBtEoQQOjUn2Q==
   dependencies:
     inferno "7.4.11"
+
+inferno-server@^8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/inferno-server/-/inferno-server-8.2.3.tgz#3f3cfc73bb90b7ecb66e2203c7bf95af84696dd5"
+  integrity sha512-swaDCaTYPplKwcBDbveu7xKIAooLXOOdfRoETTCIZwKyfKBGR3JnqsrwcL6miFR8TG6CNibvYKG8eSYHzkoA4Q==
+  dependencies:
+    inferno "8.2.3"
 
 inferno-shared@7.4.11:
   version "7.4.11"
@@ -2075,6 +2107,11 @@ inferno-vnode-flags@7.4.11:
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.4.11.tgz#642a835a8dde514f244296b27c176a2b8704fbac"
   integrity sha512-L7lslEQCq3IfwgT/b9zhuMf8fv6KXCNXXHZevk/WYxnqJsOWGDcKpJn0zkzXfvmj0otbB149iLUQVBq3oe2sfA==
 
+inferno-vnode-flags@8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-8.2.3.tgz#1af330303efa2c1c8a028287e158974194f5cf4f"
+  integrity sha512-dfC0MIwFv9PCbZCUsuk9ISejFS3fKJODC0rZ/LjxxzE+OrCk+PMwPLsUnGU6O9/jbBnPACVz1BkACDf5LWgU5Q==
+
 inferno@7.4.11, inferno@^7.3.3:
   version "7.4.11"
   resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.4.11.tgz#fcee308cf0e4a2f6066d96da74e3b425583bfc66"
@@ -2082,6 +2119,15 @@ inferno@7.4.11, inferno@^7.3.3:
   dependencies:
     inferno-shared "7.4.11"
     inferno-vnode-flags "7.4.11"
+    opencollective-postinstall "^2.0.3"
+
+inferno@8.2.3, inferno@^8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-8.2.3.tgz#150cadc898c206c8d05c14e84aa3d4e40d13f819"
+  integrity sha512-LMeRlCe+RlXw8kHCLyOWRk2PsZ3Fo4jkESyAR1g4FfPT48N78i11YhTVXW2ukCx5MFjv+qrfa73JzJWU9sg4CQ==
+  dependencies:
+    csstype "^3.1.2"
+    inferno-vnode-flags "8.2.3"
     opencollective-postinstall "^2.0.3"
 
 inflight@^1.0.4:
