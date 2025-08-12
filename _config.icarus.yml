@@ -204,11 +204,11 @@ widgets:
     position: left
     type: profile
     # 作者
-    author: Hexo for OIers
+    author: Doubeecat
     # Author title
     author_title:
     # 位置
-    location: localhost
+    location: Cruel world
     # 头像
     avatar: http://q.qlogo.cn/headimg_dl?dst_uin=1359446223&spec=640&img_type=jpg
     # 是否使用圆形头像
