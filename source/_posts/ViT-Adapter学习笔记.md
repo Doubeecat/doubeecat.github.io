@@ -39,6 +39,4 @@ F^{i+1}_{sp} = \hat{F}^i_{sp} + FFN(Norm(\hat{F}^i_{sp})) \\
 \hat{F}^i_{sp} = F^i_{sp} + Attention(Norm(F_{sp}^i),Norm(F_{vit}^{i+1}))
 $$
 这里使用的是稀疏注意力。
-$$
 
-$$
