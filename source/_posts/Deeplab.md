@@ -32,7 +32,7 @@ V2 提出了一个很有意思的架构：ASPP（空洞空间金字塔池化）
 
 这里很好理解，因为空洞卷积不同的 dilition_rate 就可以对应不同尺寸感受野，而至于四个结果怎么结合在一起也非常简单：直接用 1*1 卷积卷起来就可以啦。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/c45da8e61859b38042992304a19d5ecc.png#pic_center)
+<img src="https://i-blog.csdnimg.cn/blog_migrate/c45da8e61859b38042992304a19d5ecc.png#pic_center" alt="在这里插入图片描述" style="zoom:200%;" />
 
 # V3
 
@@ -46,4 +46,5 @@ V2 提出了一个很有意思的架构：ASPP（空洞空间金字塔池化）
 
    ![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/687000f0200a259c9b01c745d4eba145.png#pic_center)
 
-   
+
+v3+

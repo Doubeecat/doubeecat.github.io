@@ -10,7 +10,7 @@ tags: CV,分割
 
 # FCN
 
-FCN 的想法很简单，其实说起来就一句话：把 CNN 最后的全连接层换成卷积层，最后输出的就是一个尺寸等于原图，但是每个点带有一个 label 的分割完的图片。
+FCN 的想法很简单，其实说起来就一句话：把 VGG 最后的全连接层换成卷积层，最后输出的就是一个尺寸等于原图，但是每个点带有一个 label 的分割完的图片。
 
 FCN 充分考虑了不同尺度的特征，有 $\frac{1}{32},\frac{1}{16},\frac{1}{8}$ 的特征上采样之后融合在一起。但是也是因为直接上采样导致的对像素之间的关系考虑的不够准确，细节不够敏感。 
 
@@ -18,7 +18,7 @@ FCN 充分考虑了不同尺度的特征，有 $\frac{1}{32},\frac{1}{16},\frac{
 
 UNet 引入的两个很重要的结构：U 形网络结构和 skip connection.
 
-![img](https://pic4.zhimg.com/v2-6a7b04792f52dab52a8738f4dc1a6ca1_1440w.jpg)
+![Unet论文超级详解（附图文：超细节超容易理解） - 知乎](https://picx.zhimg.com/v2-4084a69f96dc3543a774c54e32c56308_720w.jpg?source=172ae18b)
 
 左边这部分实际上是一个通过卷积层一直 downscaling 的过程，也就称之为 encoder。右边是一层层 upscaling 的过程，并且 concat 左边juanjiceng 的过程（也就是 skip connection）称之为 decoder.
 
@@ -74,6 +74,8 @@ PSPnet 最大的贡献是提出了金字塔型池化结构（Pyramid Pooling Mod
 ![img](https://pic2.zhimg.com/v2-18b6874ba04bf20f21008461734c52c9_1440w.jpg)
 
 不同层次的feature map在平滑和拼接之后被用于图像分类。这种先验信息是为了消除了CNN中固定尺寸的约束。为了进一步减少不同子区域之间的上下文信息丢失，我们提出了一种分层的全局先验信息，其中包含具有不同尺寸和在不同子区域之间变化的信息。这被称为**Pyramid Pooling Module**。其实本质上是用多个卷积核来获取不同粒度的上下文信息。
+
+![img](https://pic2.zhimg.com/v2-18b6874ba04bf20f21008461734c52c9_r.jpg)
 
 (a)->(b) 的部分的 CNN 采用了 ResNet 作为 backbone，并且卷积核部分使用了空洞卷积。空洞卷积的话是，在原本的卷积核填充 0 或者在输入里等间隔采样，可以看下图：
 
