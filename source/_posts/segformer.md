@@ -20,6 +20,8 @@ tags: CV , transformer
 
 ![](https://pica.zhimg.com/v2-cc9eee57ed28d99279a70fc150a9e46a_1440w.jpg)
 
+![image-20251103205711535](https://s2.loli.net/2025/11/03/yPwUdn1vzJgrDj4.png)![image-20251103205719259](https://s2.loli.net/2025/11/03/SZxf7rEFybP96MI.png)
+
 对于 Decoder，直接采用了更加简单的方法：就是直接使用了若干个 MLP 层，首先对所有层的 feature 分别过一个 linear 层融合，然后 upsample 完 concat，最后一个linear层融合然后预测结果。这里的原因其实是因为 Transformer 天然有巨大的感受野，不同于 CNN 类的网络。
 
 ![img](https://pic3.zhimg.com/v2-866a6f77f7ffbf3f2c12417fc8d9f308_1440w.jpg)
