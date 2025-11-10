@@ -151,7 +151,7 @@ article:
   readtime: false
   # 是否显示更新时间。
   # 对于 `auto` ，仅当设置了 `page.updated` 且其值不同于 `page.date` 时才显示文章更新时间
-  update_time: true
+  update_time: auto
   # 文章尾部版权协议提示
   licenses:
     Creative Commons:
@@ -238,8 +238,9 @@ widgets:
     type: links
     # 链接的名称和指向
     links:
-      Hexo: https://hexo.io
+      155TuT: https://155tut.github.io
       Baoshuo: https://baoshuo.ren
+      Calculatelove: https://www.cnblogs.com/cjtcalc
   # 分类
   - position: left
     type: categories
